@@ -120,6 +120,45 @@
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/virginia/ontologies/2016/5/untitled-ontology-3#PassengerInfoFacility -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/virginia/ontologies/2016/5/untitled-ontology-3#PassengerInfoFacility">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/virginia/ontologies/2016/5/untitled-ontology-3#PassengerinfoEquipment"/>
+        <rdfs:range>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/virginia/ontologies/2016/5/untitled-ontology-3#PTInfoFacilityEnum"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/virginia/ontologies/2016/5/untitled-ontology-3#AccessibilityInfoEnum"/>
+            </owl:Restriction>
+        </rdfs:range>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/virginia/ontologies/2016/5/untitled-ontology-3#PassengerInfoFacilityType -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/virginia/ontologies/2016/5/untitled-ontology-3#PassengerInfoFacilityType">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/virginia/ontologies/2016/5/untitled-ontology-3#PassengerinfoEquipment"/>
+        <rdfs:range>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/virginia/ontologies/2016/5/untitled-ontology-3#AccessibilityInfoEnum"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/virginia/ontologies/2016/5/untitled-ontology-3#AccessibilityInfoEnum"/>
+            </owl:Restriction>
+        </rdfs:range>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
     // Data properties
     //
     ///////////////////////////////////////////////////////////////////////////////////////
@@ -218,12 +257,6 @@
     <owl:Class rdf:about="http://www.semanticweb.org/virginia/ontologies/2016/5/untitled-ontology-3#StopPlaceEquipment">
         <rdfs:comment>Class of a equipment that include a stop place</rdfs:comment>
     </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/virginia/ontologies/2016/5/untitled-ontology-3#sa -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/virginia/ontologies/2016/5/untitled-ontology-3#sa"/>
 </rdf:RDF>
 
 
