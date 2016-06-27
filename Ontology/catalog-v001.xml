@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
     <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
-        <uri id="Automatically generated entry, Timestamp=1466861970139" name="http://www.semanticweb.org/virginia/ontologies/2016/5/untitled-ontology-3" uri="myprimer.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1467027493404" name="http://www.semanticweb.org/virginia/ontologies/2016/5/metroEquipment" uri="miprimer.owl"/>
     </group>
 </catalog>
