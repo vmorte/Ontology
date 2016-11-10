@@ -1,0 +1,973 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#"
+     xml:base="http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#AbstractAccessEquipment -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#AbstractAccessEquipment">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#StopPlaceEquipment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#AbstractAssignment -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#AbstractAssignment"/>
+    
+
+
+    <!-- http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#AbstractEquipment -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#AbstractEquipment">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#DataManagedObject"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#AbstractPathLink -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#AbstractPathLink">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#StopPlaceComponent"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#AbstractSign -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#AbstractSign">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#StopPlaceEquipment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#AbstractStopAssignment -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#AbstractStopAssignment"/>
+    
+
+
+    <!-- http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#AbstractStopPlaceElement -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#AbstractStopPlaceElement">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#AccesiblePlace"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#DataManagedObject"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#AbstractStopPlaceSpace -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#AbstractStopPlaceSpace">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#StopPlaceComponent"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#AccesibilityAssessment -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#AccesibilityAssessment"/>
+    
+
+
+    <!-- http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#AccesiblePlace -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#AccesiblePlace">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#Place"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#AccessLink -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#AccessLink"/>
+    
+
+
+    <!-- http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#AccessPathLink -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#AccessPathLink">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#AbstractPathLink"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#AccessSpace -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#AccessSpace">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#AbstractStopPlaceSpace"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#AccessSpaceEntrace -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#AccessSpaceEntrace">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#StopPlaceEntrance"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#AccessVehicleEquipment -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#AccessVehicleEquipment">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#ActualVehicleEquipment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#AccessibilityLimitation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#AccessibilityLimitation"/>
+    
+
+
+    <!-- http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#AccessiblePlaceInSequence -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#AccessiblePlaceInSequence"/>
+    
+
+
+    <!-- http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#ActualVehicleEquipment -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#ActualVehicleEquipment">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#InstalledEquipment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#Address -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#Address">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#AccesiblePlace"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#DataManagedObject"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#PathLinkablePlace"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#AdministrativeArea -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#AdministrativeArea"/>
+    
+
+
+    <!-- http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#AlternativeCommonName -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#AlternativeCommonName"/>
+    
+
+
+    <!-- http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#AssistanceService -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#AssistanceService">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#LocalService"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#BoardingPosition -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#BoardingPosition">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#AbstractStopPlaceSpace"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#BoardingPositionEntrance -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#BoardingPositionEntrance">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#StopPlaceEntrance"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#CheckPoint -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#CheckPoint"/>
+    
+
+
+    <!-- http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#CheckpointDelay -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#CheckpointDelay"/>
+    
+
+
+    <!-- http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#CommunicationService -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#CommunicationService">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#LocalService"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#ComplaintsService -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#ComplaintsService">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#CustomerService"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#ConnectionLink -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#ConnectionLink"/>
+    
+
+
+    <!-- http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#ConnectionLinkAssignment -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#ConnectionLinkAssignment">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#AbstractStopAssignment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#Country -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#Country"/>
+    
+
+
+    <!-- http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#CrossingEquipment -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#CrossingEquipment">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#AbstractAccessEquipment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#CustomerService -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#CustomerService">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#LocalService"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#DataAdministrator -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#DataAdministrator"/>
+    
+
+
+    <!-- http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#DataManagedObject -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#DataManagedObject"/>
+    
+
+
+    <!-- http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#DataUser -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#DataUser"/>
+    
+
+
+    <!-- http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#DinamicStopPointAssignment -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#DinamicStopPointAssignment">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#PassengerStopPointAssignment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#EntranceEquipment -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#EntranceEquipment">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#AbstractAccessEquipment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#EntranceForVehicles -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#EntranceForVehicles"/>
+    
+
+
+    <!-- http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#EntranceToVehicle -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#EntranceToVehicle"/>
+    
+
+
+    <!-- http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#EquipmentPosition -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#EquipmentPosition"/>
+    
+
+
+    <!-- http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#EscalatorEquipment -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#EscalatorEquipment">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#StairEquipment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#FunctionalPurpose -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#FunctionalPurpose"/>
+    
+
+
+    <!-- http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#HeadingSign -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#HeadingSign">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#AbstractSign"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#HireService -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#HireService">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#LocalService"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#InfoLink -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#InfoLink"/>
+    
+
+
+    <!-- http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#InstalledEquipment -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#InstalledEquipment">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#AbstractEquipment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#LeftLuggageService -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#LeftLuggageService">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#LocalService"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#Level -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#Level"/>
+    
+
+
+    <!-- http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#LiftEquipment -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#LiftEquipment">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#AbstractAccessEquipment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#LocalService -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#LocalService">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#AbstractEquipment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#LostPropertyService -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#LostPropertyService">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#CustomerService"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#LuggageLockerEquipment -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#LuggageLockerEquipment">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#StopPlaceEquipment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#LuggageService -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#LuggageService">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#LocalService"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#MoneyService -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#MoneyService">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#LocalService"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#MonitoringPoint -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#MonitoringPoint">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#StopPlaceComponent"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#MonitoringPointAssignment -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#MonitoringPointAssignment">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#AbstractStopAssignment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#NavigationPath -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#NavigationPath">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#DataManagedObject"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#OtherSign -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#OtherSign">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#AbstractSign"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#Parking -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#Parking">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#AbstractStopPlaceElement"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#ParkingArea -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#ParkingArea"/>
+    
+
+
+    <!-- http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#ParkingBay -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#ParkingBay"/>
+    
+
+
+    <!-- http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#ParkingEntranceForVehicles -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#ParkingEntranceForVehicles">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#StopPlaceEntrance"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#ParkingPassengerEntrance -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#ParkingPassengerEntrance">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#StopPlaceEntrance"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#ParkingProperties -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#ParkingProperties"/>
+    
+
+
+    <!-- http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#PassengerAccessibilityNeeds -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#PassengerAccessibilityNeeds"/>
+    
+
+
+    <!-- http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#PassengerInfoEquipment -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#PassengerInfoEquipment">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#StopPlaceEquipment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#PassengerSafetyEquipment -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#PassengerSafetyEquipment">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#StopPlaceEquipment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#PassengerStopPointAssignment -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#PassengerStopPointAssignment">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#AbstractAssignment"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#AbstractStopAssignment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#PathAssignment -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#PathAssignment"/>
+    
+
+
+    <!-- http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#PathJunction -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#PathJunction">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#AccesiblePlace"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#PathLinkInSequence -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#PathLinkInSequence"/>
+    
+
+
+    <!-- http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#PathLinkView -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#PathLinkView"/>
+    
+
+
+    <!-- http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#PathLinkablePlace -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#PathLinkablePlace">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#Place"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#Place -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#Place"/>
+    
+
+
+    <!-- http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#PointOfInterest -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#PointOfInterest">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#AccesiblePlace"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#DataManagedObject"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#PathLinkablePlace"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#PointOfInterestClassification -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#PointOfInterestClassification"/>
+    
+
+
+    <!-- http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#PointOfInterestClassificationHierarchy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#PointOfInterestClassificationHierarchy"/>
+    
+
+
+    <!-- http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#PointOfInterestEntrance -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#PointOfInterestEntrance">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#DataManagedObject"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#Place"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#PointOfInterestMembership -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#PointOfInterestMembership"/>
+    
+
+
+    <!-- http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#Quay -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#Quay">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#AbstractStopPlaceSpace"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#QuayEntrance -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#QuayEntrance">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#StopPlaceEntrance"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#QueueingEquipment -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#QueueingEquipment">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#AbstractAccessEquipment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#RampEquipment -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#RampEquipment">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#AbstractAccessEquipment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#RefreshmentsService -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#RefreshmentsService">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#LocalService"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#RoughSurface -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#RoughSurface">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#StopPlaceEquipment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#SanityFacilityEquipment -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#SanityFacilityEquipment">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#StopPlaceEquipment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#ShelterEquipment -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#ShelterEquipment">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#WaitingEquipment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#StairEquipment -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#StairEquipment">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#AbstractAccessEquipment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#StaircaseEquipment -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#StaircaseEquipment">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#StairEquipment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#StopPathLink -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#StopPathLink">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#AbstractPathLink"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#StopPlace -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#StopPlace">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#AbstractStopPlaceElement"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#StopPlaceComponent -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#StopPlaceComponent">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#AbstractPathLink"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#AbstractStopPlaceElement"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#StopPlaceEntrance -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#StopPlaceEntrance">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#StopPlaceComponent"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#StopPlaceEquipment -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#StopPlaceEquipment">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#InstalledEquipment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#StopPlaceSign -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#StopPlaceSign">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#AbstractSign"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#StopPlaceView -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#StopPlaceView"/>
+    
+
+
+    <!-- http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#StopPoint -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#StopPoint"/>
+    
+
+
+    <!-- http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#Submode -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#Submode"/>
+    
+
+
+    <!-- http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#Suitability -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#Suitability"/>
+    
+
+
+    <!-- http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#TarrifZone -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#TarrifZone"/>
+    
+
+
+    <!-- http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#TicketValidatorEquipment -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#TicketValidatorEquipment">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#ActualVehicleEquipment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#TicketingEquipment -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#TicketingEquipment">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#StopPlaceEquipment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#TicketingService -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#TicketingService">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#LocalService"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#Timeband -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#Timeband"/>
+    
+
+
+    <!-- http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#TopographicalPlace -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#TopographicalPlace">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#DataManagedObject"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#Place"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#TrainBlockPart -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#TrainBlockPart"/>
+    
+
+
+    <!-- http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#TrainElement -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#TrainElement"/>
+    
+
+
+    <!-- http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#TrainElementStopPointAssignment -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#TrainElementStopPointAssignment">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#VehicleStoppingPointAssignment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#TrainStopPointAssignment -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#TrainStopPointAssignment">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#AbstractStopAssignment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#TransportMode -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#TransportMode"/>
+    
+
+
+    <!-- http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#TravelatorEquipment -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#TravelatorEquipment">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#StairEquipment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#TrolleyStandEquipment -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#TrolleyStandEquipment">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#StopPlaceEquipment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#TypeOfEquipment -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#TypeOfEquipment"/>
+    
+
+
+    <!-- http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#TypeOfStopPlace -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#TypeOfStopPlace"/>
+    
+
+
+    <!-- http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#UserNeed -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#UserNeed"/>
+    
+
+
+    <!-- http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#ValidityCondition -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#ValidityCondition"/>
+    
+
+
+    <!-- http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#Vehicle -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#Vehicle"/>
+    
+
+
+    <!-- http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#VehiclePassengerInfoEquipment -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#VehiclePassengerInfoEquipment">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#ActualVehicleEquipment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#VehiclePositionAlignment -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#VehiclePositionAlignment"/>
+    
+
+
+    <!-- http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#VehicleQuayAlignment -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#VehicleQuayAlignment"/>
+    
+
+
+    <!-- http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#VehicleStoppingAlignment -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#VehicleStoppingAlignment"/>
+    
+
+
+    <!-- http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#VehicleStoppingPlace -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#VehicleStoppingPlace">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#StopPlaceComponent"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#VehicleStoppingPointAssignment -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#VehicleStoppingPointAssignment">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#AbstractStopAssignment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#VehicleStoppingPosition -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#VehicleStoppingPosition">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#StopPlaceComponent"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#VehicleType -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#VehicleType"/>
+    
+
+
+    <!-- http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#WaitingEquipment -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#WaitingEquipment">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#StopPlaceEquipment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#WaitingRoomEquipment -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#WaitingRoomEquipment">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#WaitingEquipment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#WheelchairVehicleEquipment -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#WheelchairVehicleEquipment">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#ActualVehicleEquipment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#role -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v.morte.fernandez/ontologies/2016/8/untitled-ontology-21#role"/>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.5.20160517-0735) https://github.com/owlcs/owlapi -->
+
